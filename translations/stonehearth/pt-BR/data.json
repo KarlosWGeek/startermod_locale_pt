@@ -6,7 +6,7 @@
 				"quote": "Ovelha? Certo. Enxada? Certo. Espadas? Certo. Embarcar!",
 				"description": "Sérios e trabalhadores, leais e bem equilibrados. Cidadãos da Ascendência cortam, constroem e cultivam, confiantes de que seu mundo conhecido é deles para habitar.",
 				"post_selection_description": ", um reino próspero e industrioso.",
-				"initial_town_name": "Expedition [str(town_number)]"
+				"initial_town_name": "Expedição [str(town_number)]"
 			}
 		},
 		"biome": {
@@ -21,7 +21,7 @@
 				"display_name": "Ártico",
 				"description": "Nevado, com altas montanhas e grandes corpos d'aguas. Bioma padrão da Aliança Nortenha.",
 				"random_location_names": {
-					"000": "Valkyrie Tundra"
+					"000": "Tundra Valkyrie"
 				}
 			},
 			"desert": {
@@ -32,10 +32,10 @@
 				},
 				"sandy_poyo": {
 					"display_name": "Sandy Poyo",
-					"species": "poyo"
+					"species": "Poyo"
 				},
 				"fennec_fox": {
-					"display_name": "Fennec Fox",
+					"display_name": "Raposa Feneco",
 					"species": "Raposa"
 				}
 			}
@@ -64,7 +64,7 @@
 				},
 				"trader": {
 					"simple_caravan_encounter": {
-						"message": "Ola[str(i18n_data.town_name)]! Trago comigo alguns bens para troca. Você não gostaria de me dar <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> em troca de <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
+						"message": "Olá [str(i18n_data.town_name)]! Trago comigo alguns bens para troca. Você não gostaria de me dar <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> em troca de <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
 						"title": "Uma caravana se aproxima!"
 					},
 					"starting_food_donation": {
@@ -141,25 +141,25 @@
 						"tier_2_bldg_template": "Modelos de contrução de Tier 2",
 						"tier_2_shops": "Lojas de Tier 2",
 						"tier_2_BGM": "BGM de Tier 2",
-						"recipe_unlock_engineer": "New portcullis recipe for Engineer!",
-						"recipe_unlock_mason": "New decoration recipes for Mason!",
-						"recipe_unlock_blacksmith": "New decoration recipes for Blacksmith!",
-						"recipe_unlock_weapons_1": "New Legendary Sword recipe - Weaver, Potter, and Blacksmith collaboration!",
-						"recipe_unlock_weapons_2": "New Legendary Shield recipe - Blacksmith, Carpenter, and Mason collaboration!",
-						"recipe_unlock_weapons_3": "New Legendary Archer recipe - Engineer, Weaver, and Carpenter collaboration!"
+						"recipe_unlock_engineer": "Nova receita de ponte levadiça para o Engenheiro!",
+						"recipe_unlock_mason": "Novas receitas de decoração para o Pedreiro!",
+						"recipe_unlock_blacksmith": "Novas receitas de decoração para o Ferreiro!",
+						"recipe_unlock_weapons_1": "Nova receita de Espada Lendária - Colaboração do Tecelão, Oleiro e Ferreiro!",
+						"recipe_unlock_weapons_2": "Nova receita de Escuro Lendário - Colaboração do Ferreiro, Carpinteiro e Pedreiro!",
+						"recipe_unlock_weapons_3": "Nova receita de Arco Lendário - Colaboração do Engenheiro, Tecelão e Carpinteiro!"
 					},
 					"generosity_tier_2_reached": {
 						"reward_message_ctd": "Por demonstrar grande generosidade aos necessitados. A vila é solenemente elegível à:",
-						"recipe_unlock_mason": "New wishing fountain recipe for Mason!",
-						"recipe_unlock_herbalist": "New shrubbery decorations for Herbalist!",
-						"recipe_unlock_blacksmith": "New decoration recipes for Blacksmith!"
+						"recipe_unlock_mason": "Nova receita de fonte dos desejos para o Pedreiro!",
+						"recipe_unlock_herbalist": "Novas decorações de arbusto para o Herbalista!",
+						"recipe_unlock_blacksmith": "Novas receitas de decoração para o Ferreiro!"
 					},
 					"crafting_tier_2_reached": {
 						"reward_message_ctd": "Por excelencia na arte do artesanato. A vila é solenemente elegível à:",
-						"recipe_unlock_mason": "New fountain and statue recipes for Mason!",
-						"recipe_unlock_carpenter": "New decorations and fences for Carpenter!",
-						"recipe_unlock_herbalist": "New shrubbery decorations for Herbalist!",
-						"recipe_unlock_blacksmith": "New decoration recipes for Blacksmith!"
+						"recipe_unlock_mason": "Novas receitas de fontes e estátuas para o Pedreiro!",
+						"recipe_unlock_carpenter": "Novas decorações e cercas para o Carpinteiro!",
+						"recipe_unlock_herbalist": "Novas decorações de arbusto para o Herbalista!",
+						"recipe_unlock_blacksmith": "Novas receitas de decoração para o Ferreiro!"
 					},
 					"ascendancy_town_tier_quest": {
 						"title": "Missão para um vilarejo",
@@ -188,7 +188,7 @@
 									},
 									"bulletin_title": "Anwyn olha de volta para o pergaminho",
 									"dialog_title": "O honorável Anwyn Redelm",
-									"choice_000": "Maçoms ho!",
+									"choice_000": "Vamos Maçons!",
 									"choice_001": "De que outra forma posso ganhar conhecimento?"
 								},
 								"proc_details": {
@@ -325,145 +325,145 @@
 								},
 								"rugs_shop2": {
 									"shop_info": {
-										"name": "Havaad's Fine Rugs and Garments",
-										"title": "An exotic merchant has arrived with exquisite wares to sell"
+										"name": "Roupas e Tapetes Finos de Havaad",
+										"title": "Um vendedor exótico chegou com louças requintadas para vender"
 									}
 								},
 								"woodcutter_shop2": {
 									"shop_info": {
-										"name": "Norm Windriser's Woodcutter Shop",
-										"title": "Norm Windriser has arrived with some really good wares to sell"
+										"name": "Loja do Lenhador Norm Windriser",
+										"title": "Norm Windriser chegou com algumas mercadorias realmente boas"
 									}
 								},
 								"stonecutter_shop2": {
 									"shop_info": {
-										"name": "Rufus Garrow's Stonecutter Shop",
-										"title": "Rufus Garrow has arrived with some exceptional wares to sell"
+										"name": "Loja do Cortador de Pedras Rufus Garrow",
+										"title": "Rufus Garrow chegou com mercadorias excepcionais para vender"
 									}
 								},
 								"stonecutter_shop_2": {
 									"shop_info": {
-										"name": "Rufus Garrow's Stonecutter Shop",
-										"title": "Rufus Garrow has arrived with better wares to sell"
+										"name": "Loja do Cortador de Pedras Rufus Garrow",
+										"title": "Rufus Garrow chegou com melhores mercadorias para vender"
 									}
 								},
 								"weapon_armor_shop_2": {
 									"shop_info": {
-										"name": "Sark Blackhammer's Armory Shop",
-										"title": "Sark Blackhammer has arrived with high quality equipment to sell"
+										"name": "Loja de Arsenal de Sark Blackhammer",
+										"title": "Sark Blackhammer chegou com equipamentos de alta qualidade para vender"
 									}
 								},
 								"door_shop_2": {
 									"shop_info": {
-										"name": "Edgar Planckton's Door Store",
-										"title": "Edgar Planckton has arrived with fancy doors and windows for sale"
+										"name": "Loja de Portas de Edgar Planckton",
+										"title": "Edgar Planckton chegou com lindas portas e janelas para vender"
 									}
 								},
 								"potter_shop_2": {
 									"shop_info": {
-										"name": "Ferina Rayye's Shaped Clay",
-										"title": "Ferina Rayye's pottery studio is in town, offering pottery and clay decorations"
+										"name": "Barro em Forma de Ferina Rayye",
+										"title": "O estúdio de cerâmica de Ferina Rayye está na cidade, oferecendo decorações de cerâmica e barro"
 									}
 								},
 								"herbalist_shop_2": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling plants and seeds"
+										"name": "Verdejanta Vegetação Verdejanta de Vert Greene",
+										"title": "Vert Greene está de passagem, vendendo plantas e sementes"
 									}
 								}
 							},
 							"tier_1_shops": {
 								"pets_shop_1": {
 									"shop_info": {
-										"name": "Avelyn's Pet Shop",
-										"title": "A local ranger is passing by, offering pets to adopt"
+										"name": "Pet Shop de Avelyn",
+										"title": "Um guarda florestal local está de passagem, oferecendo animais para adoção"
 									}
 								},
 								"pets_shop_2": {
 									"shop_info": {
-										"name": "Dinali's Little Menagerie",
-										"title": "An animal trainer is visiting with her menagerie"
+										"name": "Pequeno Alojamento de Animais de Dinali",
+										"title": "Um treinador de animais está visitando com seu alojamento de animais"
 									}
 								},
 								"pets_shop_3": {
 									"shop_info": {
-										"name": "Ollin and Ruvel's Traveling Zoo",
-										"title": "A zoo caravan is offering exotic animals for sale"
+										"name": "Zoológico Ambulante de Ollin e Ruvel",
+										"title": "Um zoológico ambulante está oferecendo animais exóticos para vender"
 									}
 								},
 								"container_shop_1": {
 									"shop_info": {
-										"name": "Jo Boxen's Container Barn",
-										"title": "Jo Boxen arrives with a basket of bins"
+										"name": "Celeiro de Contêiners do Jo Boxen",
+										"title": "Jo Boxen chegou com uma cesta de caixas"
 									}
 								},
 								"food_shop_1": {
 									"shop_info": {
-										"name": "Gannor's Breakfast Foods Trunk",
-										"title": "A young cook has arrived with a trunk of breakfast foods"
+										"name": "Baú de Comidas de Café da Manhã do Gannor",
+										"title": "Um jovem cozinheiro chegou com um baú de comidas para o café da manhã"
 									}
 								},
 								"potter_shop_1": {
 									"shop_info": {
-										"name": "Ferina Rayye's Shaped Clay",
-										"title": "Ferina Rayye's wheeled studio is padding by, offering pottery"
+										"name": "Barro em Forma de Ferina Rayye",
+										"title": "O estúdio sobre rodas de Ferina Rayye está passando, oferecendo cerâmica"
 									}
 								},
 								"herbalist_shop_1": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling herbs"
+										"name": "Verdejanta Vegetação Verdejanta de Vert Greene",
+										"title": "Vert Greene está passando, vendendo ervas"
 									}
 								}
 							},
 							"tier_3_shops": {
 								"woodcutter_shop_3": {
 									"shop_info": {
-										"name": "Norm Windriser's Woodcutter Shop",
-										"title": "Norm Windriser has arrived with his best wares"
+										"name": "Loja do Lenhador Norm Windriser",
+										"title": "Norm Windriser chegou com suas melhores mercadorias"
 									}
 								},
 								"container_shop_3": {
 									"shop_info": {
-										"name": "Jo Boxen's Container Barn",
-										"title": "Jo Boxen arrives with a vault of chests"
+										"name": "Depósitos de Jo Boxen",
+										"title": "Jo Boxen chegou com um cofre de baús"
 									}
 								},
 								"weapon_armor_shop_3": {
 									"shop_info": {
-										"name": "Sark Blackhammer's Armory Shop",
-										"title": "Sark Blackhammer has arrived with his best weapons and armor"
+										"name": "Loja de Arsenal de Sark Blackhammer",
+										"title": "Sark Blackhammer chegou com suas melhores armas e armaduras"
 									}
 								},
 								"door_shop_3": {
 									"shop_info": {
-										"name": "Edgar Planckton's Door Store",
+										"name": "Loja de Portas de Edgar Planckton",
 										"title": "Edgar Planckton has arrived with a shipment of his best doors and windows"
 									}
 								},
 								"food_shop_3": {
 									"shop_info": {
-										"name": "Volf Hart's Meats and Pies",
-										"title": "A famous chef is passing by, offering gourmet dishes for sale"
+										"name": "Carnes e Tortas de Volf Hart",
+										"title": "Um chefe famoso está de passagem, oferecendo pratos gourmet para vender"
 									}
 								},
 								"potter_shop_3": {
 									"shop_info": {
-										"name": "Ferina Rayye's Shaped Clay",
-										"title": "Ferina Rayye's wheeled pottery studio is in town, offering artisan clay crafts"
+										"name": "Barro em Forma de Ferina Rayye",
+										"title": "O estúdio sobre rodas de Ferina Rayye está na cidade, oferecendo artesões de argila artesanal"
 									}
 								},
 								"herbalist_shop_3": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling plants of all kinds"
+										"name": "Verdejanta Vegetação Verdejanta de Vert Greene",
+										"title": "Vert Greene está passando, vendendo plantas de todos os tipos"
 									}
 								}
 							}
 						}
 					},
 					"shrine_unlock_recipes": {
-						"bulletin_title": "Mason Recipes Unlocked: Shrines"
+						"bulletin_title": "Receita do Pedreiro Desbloqueada: Santuários"
 					}
 				},
 				"goblin_war": {
@@ -483,7 +483,7 @@
 									"dialog_title": "???"
 								},
 								"erdenes_help": {
-									"choice_000": "Uh... okay?",
+									"choice_000": "Uh... ok?",
 									"choice_001": "Estou confuso. Desculpa.",
 									"bulletin_message": {
 										"000": "Emprestar força para a ascenção, significa a queda quando a força falha. Ogo não recebe seu poder de seu porta-voz, mas sim do bebê que ele roubou."
@@ -535,61 +535,61 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"soothsayer_description": {
-									"choice_000": "No way!",
+									"choice_000": "Sem chance!",
 									"choice_001": "Huh.",
 									"bulletin_message": {
-										"000": "Soothsayer magic! Speak with old ones! Tell future! He see... he see Red Kiln Falling, new star rising. That star is Ogo. This time, we pick winning side!",
-										"001": "Soothsayer old, old snake. Speaks out with bones and scales. Sees future! Sees cycle ending, ending forever. Not sure what he mean, but good for Ogo!",
-										"002": "Soothsayer goblin, obviously! Goblin who can see future! He say old ones dying away, new star rising. Good for Ogo, bad for everyone else, you included!"
+										"000": "Profeta mágico! Fala com os velhos! Vê o futuro! Ele vê... ele vê Kiln Vermelha Caindo, nova estrela nascendo. Aquela estrela é Ogo. Dessa vez, nós escolhemos o lado vencedor!",
+										"001": "Profeta velho, velha cobra. Fala com ossos e escamas. Vê futuro! Vê ciclo terminando, terminando para sempre. Não entendi o que ele quis dizer, mas bom para Ogo!",
+										"002": "Profeta goblin, obviamente! Goblin que pode ver o futuro! Ele disse que velhos ossos estão morrendo, e novas estrelas nascendo. Bom para Ogo, ruim para todo o resto, incluindo vocês!"
 									},
-									"bulletin_title": "The goblin's eyes grow round",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Os olhos do goblin cresceram em volta",
+									"dialog_title": "Bandeirinha do Ogo"
 								},
 								"snooty_introduction": {
 									"choice_000": "Huh.",
 									"choice_001": "Gagh!",
 									"bulletin_message": {
-										"000": "Ho, puny town! Me stand here with bad news for you!",
-										"001": "Puny Town! Bow and tremble!",
-										"002": "Muahahahahah! This? This your town? I laugh till I cry!"
+										"000": "Ei, cidade insignificante! Mim estar aqui com más notícias para vocês!",
+										"001": "Cidade insignificante! Curve-se e trema!",
+										"002": "Muahahahahah! Isso? Isso é sua cidade? Eu ri até eu chorar!"
 									},
-									"bulletin_title": "A goblin with a officious smirk slithers into town",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Um goblin com um sorriso malicioso aparece na cidade",
+									"dialog_title": "Bandeirinha do Ogo"
 								},
 								"ogo_introduction": {
-									"choice_000": "Ogo who?",
-									"choice_001": "Uh. No.",
+									"choice_000": "Ogo quem?",
+									"choice_001": "Uh. Não.",
 									"bulletin_message": {
-										"000": "By order of Ogo Skullbonker, Goblin-All-Chief-To-Be, you and all your stuffs now be tribute to Great Glittering Army and Red Kiln Empire!",
-										"001": "I envoy of Ogo Skullbonker, tamer of Mountains! Ogo demand many thing from all, include you, include your gold!",
-										"002": "My Chief-of-Chiefs, Ogo Skullbonker, soon take Glittering Army and rule all of Red Kiln! You next of many conquests. You become our goldfarmers!",
-										"003": "I am Bannergoblin of Ogo Skullbonker, rider of Mountain! My master demand you tribute, in form of all you have! You give everything! Or you pay!",
-										"004": "I bannergoblin of Ogo Skullbonker! When you bested the small chiefs, you bring Ogo's Eye upon you! And Ogo's Eye know all! You will give tribute, or eye will see your end!"
+										"000": "Pela ordem de Ogo Skullbonker, Goblin-Todos-Chefe-Ser, vocês e todas as suas coisas agora são tributos para o Cintilante Grande Exército do Império Kiln Vermelho!",
+										"001": "Eu invejo Ogo Skullbonker, domador de Montanhas! Ogo exige muitas coisas, incluindo vocês, incluindo seu ouro!",
+										"002": "Meu Chefee-dos-Chefes, Ogo Skullbonker, logo pegará o Exército Cintilante e governará todo Kiln Vermelho! Vocês as próximas de muitas conquistas. Vocês se tornam nossos garimpeiros!",
+										"003": "Eu sou Bannergoblin de Ogo Skullbonker, cavaleiro da Montanha! Meu mestre exige seu tributo, em forma de tudo que vocês tem! Vocês dão tudo! Ou vocês pagam!",
+										"004": "Eu sou bannergoblin de Ogo Skullbonker! Quando vocês superaram os chefes pequenos, vocês trazem ps Olhos de Ogo sobre vocês! E os Olhos de Ogo sabem tudo! Vocês darão tributos, ou olhos verão seu fim!"
 									},
-									"bulletin_title": "The goblin straightens",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "O goblin endireita",
+									"dialog_title": "Bandeirinha de Ogo"
 								},
 								"ogo_description": {
-									"choice_000": "Soothsayer?",
-									"choice_001": "Eh",
+									"choice_000": "Profeta?",
+									"choice_001": "Uh",
 									"bulletin_message": {
-										"000": "Soothsayer say Ogo Skullbonker will be hero above all heroes! You destined to give him gold!",
-										"001": "Soothsayer little, but have big thoughts! Soothsayer never wrong. Soothsayer say you give Ogo gold, or Ogo will take it from you!",
-										"002": "Goblins long be shunned and forgotten. Soothsayer say that Ogo Skullbonker, my LittleChief, will soon change everything! For that, he need gold and labor!",
-										"003": "Ogo Skullbonker, Master of Masters, have great destiny, to rule over all! Soothsayer say so; soothsayer never wrong. Soothsayer say, you will help!"
+										"000": "Profeta diz que Ogo Skullbonker será herói acima de todos os heróis! Vocês destinados a dar ouro a ele!",
+										"001": "Profeta pequeno, mas tem grandes planos! Profeta nunca errado. Profeta diz que vocês dão ouro a Ogo, ou Ogo irá tira-lo de vocês!",
+										"002": "Goblins logo serão evitados e esquecidos. Profeta diz que Skullbonker, meu PequenoChefe, logo virá mudar tudo! Para isso, ele precisa de ouro e trabalho!",
+										"003": "Ogo Skullbonker, Mestre dos Mestres, tem grande destino, de governar acima de todos! Profeta diz isso; profeta nunca errado. Profeta diz, você irá ajudar!"
 									},
-									"bulletin_title": "The goblin's eyes glow with zeal",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Os olhos do goblin brilham com zelo",
+									"dialog_title": "Bandeirinha do Ogo"
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Anyway, it matter not! I here only to warn you: muster your gold, so it easy for us to collect! We be back soon!",
-										"001": "Hahaha! Whatever. You all belong to us now. We come soon to collect you for gold mines!",
-										"002": "Oh, you say something? No matter, we return soon! Collect all your things so will be easy for us to move!",
-										"003": "Anyway, time to go iron my banner. Be back soon! Be ready, yes? New life under goblin rule awaits!"
+										"000": "De qualquer forma, não importa isso! Eu aqui apenas para avisar vocês: reunam seu ouro, para que fácil seja para nós pegar! Nós voltar logo!",
+										"001": "Hahaha! Não importa. Vocês todos pertencem a nós agora. Nós voltamos logo para coletar vocês para nossas minas de ouro!",
+										"002": "Ah, você diz alguma coisa? Não importa, nós voltar logo! Peguem todas as suas coisas para que seja fácil para nós mudar!",
+										"003": "De qualquer forma, hora de ir passar meu banner. Volto logo! Esteja pronto, sim? Nova vida sobre governo goblin espera!"
 									},
-									"bulletin_title": "The goblin's eyes narrow",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Os olhos do goblin se estreitam",
+									"dialog_title": "Bandeirinha do Ogo"
 								}
 							}
 						}
